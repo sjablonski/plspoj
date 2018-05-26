@@ -32,4 +32,4 @@ Output:
 
 ```
 
-Source: [POLSKI SPOJ](http://www.http://pl.spoj.com/)
+Source: [POLSKI SPOJ](http://www.pl.spoj.com/)
