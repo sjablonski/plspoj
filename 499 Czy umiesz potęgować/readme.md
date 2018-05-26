@@ -5,30 +5,29 @@ Dla danych dwóch liczb naturalnych a i b, wyznaczyć ostatnią cyfrę liczby a<
 ### Zadanie
 
 Napisz program, który:
-* wczyta ze standardowego wejścia nieujemną liczbę całkowitą n,
-* policzy cyfrę dziesiatek oraz cyfrę jedności w zapisie dziesiętnym liczby n!,
+* wczyta ze standardowego wejścia: podstawę a oraz wykładnik b,
+* wyznaczy ostatnią cyfrę liczby a<sup>b</sup>,
 * wypisze wynik na standardowe wyjście.
 
-### Input
+### Wejście
 
-W pierwszej linii wejścia znajduje się jedna liczba całkowia D (1≤D≤30), oznaczjąca liczbę przypadków do rozważenia. Opis każdego przypadku składa się z jednej linii, w której znajduje się jedna nieujemna liczba całkowita n (0 ≤ n ≤ 1 000 000 000).
+W pierwszej linii wejścia znajduje się jedna liczba całkowia D (1≤D≤10), oznaczjąca liczbę przypadków do rozważenia. Opis każdego przypadku podany jest w jednym wierszu, zawierającym dwie liczby naturalne a i b oddzielone pojedynczym odstępem (spacją), takie, że (1 ≤ a,b ≤ 1 000 000 000).
 
-### Output
+### Wyjście
 
-Dla każdego przypadku z wejścia. Twój program powinien wypisać w osobnej linii dokładnie dwie cyfry (oddzielone pojedynczą spacją): cyfrę dziesiątek i cyfrę jedności liczby n! zapisanej w systemie dziesiętnym.
+Dla każdego przypadku z wejścia Twój program powinien wypisać (w osobnej linii dla każdego przypadku z wejścia) cyfrę jedności liczby ab zapisanej dziesiętnie.
 
-
-### Example
+### Przykład
 
 ```
-Input:
+Wejście:
 2
-1
-4
+2 3
+3 3
 
-Output:
-0 1
-2 4
+Wyjście:
+8
+7
 
 ```
 
