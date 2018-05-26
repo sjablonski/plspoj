@@ -13,13 +13,13 @@ Dla każdej liczby słowo TAK, jeśli liczba ta jest pierwsza, słowo: NIE, w pr
 ### Example
 
 ```
-**Input:**
+Input:
 3
 11
 1
 4
 
-**Output:**
+Output:
 TAK
 NIE
 NIE
