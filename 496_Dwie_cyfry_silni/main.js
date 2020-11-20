@@ -1,5 +1,5 @@
 let n = readline();
-n = isNaN(n) && (n < 1 || n > 30) ? 0 : Number(n);
+n = isNaN(n) || n < 1 || n > 30 ? 0 : Number(n);
 
 for (let i = 0; i < n; i++) {
   const nFactorial = readline();
